@@ -28,6 +28,7 @@ SR-KGE is mainly tested in a Linux environment, and its dependencies are listed 
 # Run SR-KGE
 
 SR-KGE runs in two stages: (1) KG completion to generate an enhanced KG, and (2) DDI prediction using the enhanced KG. 
+
 You can train SR-KGE with the following command:
 
 ```bash
