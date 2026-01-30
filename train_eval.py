@@ -67,7 +67,6 @@ def eval(loader, model):
 
             predicts, loss = model(data_mol1, data_drug1, data_mol2, data_drug2)
 
-            ##获取指标
             prob_all.append(predicts)
             label_all.append(data_mol1.y)
             total_loss += loss.item() * num_graphs(data_mol1)
